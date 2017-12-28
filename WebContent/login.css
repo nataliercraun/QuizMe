@@ -1,0 +1,214 @@
+h2 {
+    font-size: 25px;
+    font-family: Futura;
+    color: black;
+}
+
+section {
+    text-align: center;
+}
+
+.form-group {
+    font-size: 20px;
+}
+
+.form-control {
+    font-family: Futura;
+}
+
+label {
+	padding-top: 35px; 
+    font-size: 25px;
+    font-family: Futura;
+    color: black; 
+}
+
+#colorStrip {
+    background-color: lightblue;
+    padding: 30px;
+}
+
+#title {
+	padding-top: 10px; 
+    padding-left: 30px;
+    font-size: 50px;
+    font-family: Futura;
+    color: white;
+    text-align: left;
+}
+
+#siteDescription {
+    font-size: 60px;
+    font-family: Futura;
+    padding-top: 50px;
+    padding-left: 100px;
+    text-align: left;
+    color: black;
+}
+
+#siteDescriptionSml {
+    font-size: 18px;
+    font-family: Futura;
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+#emailForm {
+	padding: 5px;
+	background-color: lightblue;
+}
+
+#passForm {
+	padding: 5px;
+	background-color: lightblue;
+}
+
+#btnz {
+	display: inline-block;
+	background-color: lightblue;
+	padding-top: 10px;
+}
+
+#ltblue {
+	background-color: lightblue;
+}
+
+#exampleInputEmail1 {
+	display: inline-block;
+	width: 80%;
+}
+
+#exampleInputPassword1 {
+	display: inline-block;
+	width: 80%;
+}
+
+#clrbutton {
+	padding-top: 25px; 
+}
+
+/*----------------------------------------------
+CSS for pop-up form 
+------------------------------------------------*/
+
+@import "http://fonts.googleapis.com/css?family=Raleway";
+
+#abc {
+	width:100%;
+	height:100%;
+	opacity:.95;
+	top:0;
+	left:0;
+	display:none;
+	position:fixed;
+	background-color:#313131;
+	overflow:auto
+}
+
+#close {
+	width:25px;
+	height: 25px; 
+	position: absolute;
+	right:-14px;
+	top:-14px;
+	cursor:pointer
+}
+
+div#popupContact {
+	position:absolute;
+	left:50%;
+	top:17%;
+	margin-left:-202px;
+	font-family:'Raleway',sans-serif
+}
+
+#form {
+	max-width:300px;
+	min-width:250px;
+	padding:15px 50px;
+	border:2px solid gray;
+	border-radius:10px;
+	font-family:raleway;
+	background-color:#fff
+}
+
+p {
+	margin-top:30px
+}
+
+h2 {
+	background-color:#FEFFED;
+	padding:20px 35px;
+	margin:-10px -50px;
+	text-align:center;
+	border-radius:10px 10px 0 0
+}
+
+hr {
+	margin:10px -50px;
+	border:0;
+	border-top:1px solid #ccc
+}
+
+#emailinput {
+	width:82%;
+	padding:10px;
+	margin-top:30px;
+	border:1px solid #ccc;
+	font-size:16px;
+	font-family:raleway
+}
+
+#passinput{
+	width:82%;
+	padding:10px;
+	margin-top:30px;
+	border:1px solid #ccc;
+	font-size:16px;
+	font-family:raleway
+}
+
+#email {
+	background-image:url(../images/name.jpg);
+	background-repeat:no-repeat;
+	background-position:5px 7px
+}
+
+#pass {
+	background-image:url(../images/email.png);
+	background-repeat:no-repeat;
+	background-position:5px 7px
+}
+
+#submit {
+	text-decoration:none;
+	width:100%;
+	text-align:center;
+	display:block;
+	background-color:#FFBC00;
+	color:#fff;
+	border:1px solid #FFCB00;
+	padding:10px 0;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:5px
+}
+
+span {
+	color:red;
+	font-weight:700
+}
+
+#popup {
+	width:10%;
+	height:45px;
+	border-radius:3px;
+	background-color:#cd853f;
+	color:#fff;
+	font-family:'Raleway',sans-serif;
+	font-size:18px;
+	cursor:pointer
+}
+
+
+

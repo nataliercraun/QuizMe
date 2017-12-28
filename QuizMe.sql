@@ -1,0 +1,26 @@
+DROP DATABASE IF EXISTS QuizMe;
+CREATE DATABASE QuizMe;
+
+USE QuizMe;
+
+CREATE TABLE User (
+	user_id INT(11) PRIMARY KEY AUTO_INCREMENT,
+	email VARCHAR(50) NOT NULL,
+    password VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Deck(
+	deck_id INT(11) PRIMARY KEY AUTO_INCREMENT,
+	user_id INT(11) NOT NULL, 
+    FOREIGN KEY (user_id) REFERENCES User(user_id),
+    name VARCHAR(50) NOT NULL,
+    description VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Card(
+	card_id INT(11) PRIMARY KEY AUTO_INCREMENT,
+	deck_id INT(11) NOT NULL,
+	FOREIGN KEY (deck_id) REFERENCES Deck(deck_id), 
+	front VARCHAR(200) NOT NULL,
+    back VARCHAR(300) NOT NULL
+);
